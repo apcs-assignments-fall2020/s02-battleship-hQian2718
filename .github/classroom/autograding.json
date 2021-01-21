@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Hit",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testHit",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Place Boat",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testPlaceBoard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "In Order",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testInOrder",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
